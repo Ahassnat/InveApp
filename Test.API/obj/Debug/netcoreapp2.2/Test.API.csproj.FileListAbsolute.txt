@@ -1,0 +1,14 @@
+/home/abood/APro/Test.API/bin/Debug/netcoreapp2.2/Test.API.deps.json
+/home/abood/APro/Test.API/bin/Debug/netcoreapp2.2/Test.API.runtimeconfig.json
+/home/abood/APro/Test.API/bin/Debug/netcoreapp2.2/Test.API.runtimeconfig.dev.json
+/home/abood/APro/Test.API/bin/Debug/netcoreapp2.2/Test.API.dll
+/home/abood/APro/Test.API/bin/Debug/netcoreapp2.2/Test.API.pdb
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.csprojAssemblyReference.cache
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.csproj.CoreCompileInputs.cache
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.RazorAssemblyInfo.cache
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.RazorAssemblyInfo.cs
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.AssemblyInfoInputs.cache
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.AssemblyInfo.cs
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.RazorTargetAssemblyInfo.cache
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.dll
+/home/abood/APro/Test.API/obj/Debug/netcoreapp2.2/Test.API.pdb
