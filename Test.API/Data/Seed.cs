@@ -17,7 +17,7 @@ namespace Test.API.Data
 
         public void SeedUser()
         {
-            if (_userManager.Users.Any())
+            if (!_userManager.Users.Any())
             {
                 var userData = System.IO.File.ReadAllText("Data/UserSeedData.json");
                 var users = JsonConvert.DeserializeObject<List<User>>(userData);
@@ -27,5 +27,15 @@ namespace Test.API.Data
                 }
             }
         }
+
+        // public void SeedCountry()
+        // {
+        //     var countryData = System.IO.File.ReadAllText("");
+        //     var country = JsonConvert.DeserializeObject<List<Country>>(countryData);
+        //     foreach (var c in country)
+        //     {
+                
+        //     }
+        // }
     }
 }

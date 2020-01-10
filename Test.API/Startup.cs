@@ -71,11 +71,12 @@ namespace Test.API
                   });
 
             services.AddScoped<IAuthRepo, AuthRepo>();
+            services.AddTransient<Seed>();
             services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, Seed seeder)
         {
             if (env.IsDevelopment())
             {
@@ -88,6 +89,7 @@ namespace Test.API
             }
 
             // app.UseHttpsRedirection();
+            seeder.SeedUser();
             app.UseAuthentication();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseMvc();
